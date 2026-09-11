@@ -1,112 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <meta
-        name="description"
-        content="Azhar Shaikh - AI MERN Full Stack Developer Portfolio"
-    >
+    <meta name="description"
+        content="Azhar Shaikh - AI MERN Full Stack Developer Portfolio">
+
+    <meta name="author"
+        content="Azhar Shaikh">
 
     <title>Azhar Shaikh | AI MERN Full Stack Developer</title>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
-    >
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    >
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="style.css">
 </head>
 
 <body>
 
-    <!-- ================= LOADER ================= -->
+    <!-- =====================================================
+         LOADER
+    ====================================================== -->
 
-    <div class="loader" id="loader">
-        <div class="loader-text">AZHAR</div>
+    <div class="loader"
+        id="loader">
+
+        <div class="loader-logo">
+            AZHAR
+        </div>
+
         <div class="loader-line"></div>
+
+        <p>Loading Portfolio...</p>
+
     </div>
 
 
-    <!-- ================= BACKGROUND ================= -->
+    <!-- =====================================================
+         BACKGROUND
+    ====================================================== -->
 
-    <div class="bg-grid"></div>
+    <div class="background-grid"></div>
+
     <div class="glow glow-one"></div>
     <div class="glow glow-two"></div>
+    <div class="glow glow-three"></div>
 
 
-    <!-- ================= NAVBAR ================= -->
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
 
     <header class="navbar">
 
         <div class="navbar-inner">
 
-            <a href="#home" class="logo">
-                <span>A</span>ZHAR
+            <!-- LOGO -->
+
+            <a href="#home"
+                class="logo">
+
+                <span class="logo-mark">
+
+                    <span>A</span>
+                    <span>Z</span>
+
+                </span>
+
+                <span class="logo-name">
+                    AZHAR
+                </span>
+
             </a>
 
-            <nav class="nav-links" id="navLinks">
 
-                <a href="#home" class="nav-link active">
+            <!-- NAV LINKS -->
+
+            <nav class="nav-links"
+                id="navLinks">
+
+                <a href="#home"
+                    class="active">
                     Home
                 </a>
 
-                <a href="#about" class="nav-link">
+                <a href="#about">
                     About
                 </a>
 
-                <a href="#skills" class="nav-link">
+                <a href="#skills">
                     Skills
                 </a>
 
-                <a href="#projects" class="nav-link">
+                <a href="#projects">
                     Projects
                 </a>
 
-                <a href="#experience" class="nav-link">
+                <a href="#experience">
                     Experience
                 </a>
 
-                <a href="#contact" class="nav-link">
+                <a href="#contact">
                     Contact
                 </a>
 
             </nav>
 
+
+            <!-- NAV ACTION -->
+
             <div class="nav-actions">
 
-                <a
-                    href="#contact"
-                    class="nav-hire"
-                >
+                <a href="mailto:azharshaikh3305@gmail.com"
+                    class="nav-hire">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
                     Hire Me
-                    <i class="fa-solid fa-arrow-right"></i>
+
                 </a>
 
             </div>
 
-            <button
-                class="menu-btn"
+
+            <!-- MOBILE BUTTON -->
+
+            <button class="menu-btn"
                 id="menuBtn"
-                aria-label="Open navigation menu"
-            >
+                aria-label="Open navigation menu">
+
                 <i class="fa-solid fa-bars"></i>
+
             </button>
 
         </div>
@@ -114,143 +157,224 @@
     </header>
 
 
-    <!-- ================= HERO ================= -->
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
 
     <main>
 
-        <section class="hero section" id="home">
+        <section class="hero"
+            id="home">
 
-            <div class="container">
-
-                <div class="hero-grid">
-
-                    <!-- HERO CONTENT -->
-
-                    <div class="hero-content">
-
-                        <div class="availability">
-                            <span class="status-dot"></span>
-                            Available for opportunities
-                        </div>
-
-                        <p class="hero-small">
-                            HELLO, I'M
-                        </p>
-
-                        <h1>
-                            Azhar
-                            <span>Shaikh.</span>
-                        </h1>
-
-                        <h2>
-                            AI MERN Full Stack Developer
-                        </h2>
-
-                        <p class="hero-description">
-                            I build modern, responsive and scalable web
-                            applications using React.js, Node.js,
-                            Express.js, MongoDB and MySQL.
-                        </p>
-
-                        <div class="hero-buttons">
-
-                            <a
-                                href="#contact"
-                                class="btn btn-primary"
-                            >
-                                Hire Me
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-
-                            <a
-                                href="assets/Azhar-Shaikh-Resume.pdf"
-                                class="btn btn-outline"
-                                download
-                            >
-                                Download Resume
-                                <i class="fa-solid fa-download"></i>
-                            </a>
-
-                        </div>
+            <div class="container hero-grid">
 
 
-                        <!-- SOCIAL LINKS -->
+                <!-- HERO CONTENT -->
 
-                        <div class="social-links">
+                <div class="hero-content reveal">
 
-                            <a
-                                href="https://github.com/shaikhazhar17156-boop"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="GitHub"
-                            >
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                    <div class="availability">
 
-                            <a
-                                href="https://www.linkedin.com/in/azhar-shaikh-4a2490402"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="LinkedIn"
-                            >
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
+                        <span class="status-dot"></span>
 
-                            <a
-                                href="mailto:azharshaikh3305@gmail.com"
-                                aria-label="Email"
-                            >
-                                <i class="fa-solid fa-envelope"></i>
-                            </a>
-
-                            <a
-                                href="tel:+919623133796"
-                                aria-label="Call Azhar"
-                            >
-                                <i class="fa-solid fa-phone"></i>
-                            </a>
-
-                        </div>
+                        Available for opportunities
 
                     </div>
 
 
-                    <!-- 3D PROFILE -->
+                    <p class="hero-small">
+                        Hello, I'm
+                    </p>
 
-                    <div class="hero-visual">
 
-                        <div class="profile-3d">
+                    <h1>
+                        Azhar
+                        <span>Shaikh</span>
+                    </h1>
 
-                            <div class="orbit orbit-one"></div>
-                            <div class="orbit orbit-two"></div>
 
-                            <div class="profile-glow"></div>
+                    <h2>
+                        AI MERN Full Stack Developer
+                    </h2>
 
-                            <div class="profile-image">
 
-                                <img
-                                    src="assets/profile.png"
-                                    alt="Azhar Shaikh"
-                                >
+                    <p class="hero-description">
 
-                            </div>
+                        I build modern, responsive and scalable
+                        web applications using the MERN stack,
+                        REST APIs and AI-assisted development.
 
-                            <div class="floating-card card-top">
-                                <i class="fa-brands fa-react"></i>
-                                React.js
-                            </div>
+                    </p>
 
-                            <div class="floating-card card-bottom">
-                                <i class="fa-brands fa-node-js"></i>
-                                Node.js
-                            </div>
+
+                    <!-- BUTTONS -->
+
+                    <div class="hero-buttons">
+
+                        <a href="#contact"
+                            class="btn btn-primary">
+
+                            Hire Me
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+
+                        <a href="assets/Azhar-Shaikh-Resume.pdf"
+                            class="btn btn-outline"
+                            download>
+
+                            Download Resume
+
+                            <i class="fa-solid fa-download"></i>
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- SOCIAL -->
+
+                    <div class="social-links">
+
+                        <a href="https://github.com/shaikhazhar17156-boop"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+
+                        <a href="https://www.linkedin.com/in/azhar-shaikh-4a2490402"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn">
+
+                            <i class="fa-brands fa-linkedin-in"></i>
+
+                        </a>
+
+
+                        <a href="mailto:azharshaikh3305@gmail.com"
+                            aria-label="Email">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </a>
+
+
+                        <a href="tel:+919623133796"
+                            aria-label="Phone">
+
+                            <i class="fa-solid fa-phone"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     3D PROFILE
+                ================================================== -->
+
+                <div class="hero-visual reveal">
+
+                    <div class="profile-3d"
+                        id="profile3d">
+
+
+                        <!-- Outer Rings -->
+
+                        <div class="profile-ring ring-one"></div>
+
+                        <div class="profile-ring ring-two"></div>
+
+                        <div class="profile-ring ring-three"></div>
+
+
+                        <!-- Glow -->
+
+                        <div class="profile-glow"></div>
+
+
+                        <!-- Profile Image -->
+
+                        <div class="profile-image">
+
+                            <img src="assets/profile.png"
+                                alt="Azhar Shaikh Profile Photo">
 
                         </div>
-                        
-                            <div class="floating-card card-top">
-                                <i class="fa-brands fa-Mongo"></i>
+
+
+                        <!-- React -->
+
+                        <div class="tech-orbit-icon react-icon">
+
+                            <i class="fa-brands fa-react"></i>
+
+                            <span>
+                                React
+                            </span>
+
+                        </div>
+
+
+                        <!-- MongoDB -->
+
+                        <div class="tech-orbit-icon mongo-icon">
+
+                            <i class="fa-solid fa-leaf"></i>
+
+                            <span>
                                 MongoDB
-                            </div>
+                            </span>
+
+                        </div>
+
+
+                        <!-- Node -->
+
+                        <div class="tech-orbit-icon node-icon">
+
+                            <i class="fa-brands fa-node-js"></i>
+
+                            <span>
+                                Node.js
+                            </span>
+
+                        </div>
+
+
+                        <!-- JavaScript -->
+
+                        <div class="tech-orbit-icon js-icon">
+
+                            <i class="fa-brands fa-js"></i>
+
+                            <span>
+                                JavaScript
+                            </span>
+
+                        </div>
+
+
+                        <!-- Floating Code -->
+
+                        <div class="floating-code code-one">
+                            &lt;/&gt;
+                        </div>
+
+                        <div class="floating-code code-two">
+                            { }
+                        </div>
 
                     </div>
 
@@ -261,138 +385,172 @@
         </section>
 
 
-        <!-- ================= MARQUEE ================= -->
+
+        <!-- =====================================================
+             MARQUEE
+        ====================================================== -->
 
         <div class="marquee">
 
             <div class="marquee-track">
 
+                <span>MERN STACK</span>
                 <span>REACT.JS</span>
-                <span>•</span>
                 <span>NODE.JS</span>
-                <span>•</span>
                 <span>EXPRESS.JS</span>
-                <span>•</span>
                 <span>MONGODB</span>
-                <span>•</span>
-                <span>MYSQL</span>
-                <span>•</span>
                 <span>REST API</span>
-                <span>•</span>
-                <span>AI-ASSISTED DEVELOPMENT</span>
-                <span>•</span>
+                <span>JAVASCRIPT</span>
+                <span>FULL STACK</span>
 
+                <span>MERN STACK</span>
                 <span>REACT.JS</span>
-                <span>•</span>
                 <span>NODE.JS</span>
-                <span>•</span>
                 <span>EXPRESS.JS</span>
+                <span>MONGODB</span>
+                <span>REST API</span>
+                <span>JAVASCRIPT</span>
+                <span>FULL STACK</span>
 
             </div>
 
         </div>
 
 
-        <!-- ================= ABOUT ================= -->
 
-        <section class="section" id="about">
+        <!-- =====================================================
+             ABOUT
+        ====================================================== -->
+
+        <section class="section"
+            id="about">
 
             <div class="container">
 
-                <div class="section-heading">
+                <div class="section-heading reveal">
 
-                    <p class="section-label">
-                        ABOUT ME
-                    </p>
+                    <span>
+                        01 / About
+                    </span>
 
-                    <h2 class="section-title">
-                        Building ideas into
-                        <span>real products.</span>
+                    <h2>
+                        Building with
+                        <strong>purpose.</strong>
                     </h2>
-
-                    <p class="section-subtitle">
-                        A passionate developer focused on creating
-                        useful, responsive and modern web experiences.
-                    </p>
 
                 </div>
 
 
                 <div class="about-grid">
 
-                    <div class="about-content">
 
-                        <p>
-                            I'm Azhar Shaikh, an AI MERN Full Stack Developer
-                            with 6 months of hands-on development experience.
+                    <div class="about-content reveal">
+
+                        <p class="about-lead">
+
+                            I'm an AI-assisted MERN Full Stack
+                            Developer focused on creating modern
+                            and practical web experiences.
+
                         </p>
 
-                        <p>
-                            I work across frontend, backend and databases,
-                            building complete web applications from user
-                            interfaces to REST APIs and data management.
-                        </p>
 
                         <p>
-                            I also use AI-assisted development tools for
-                            debugging, learning, improving code quality and
-                            speeding up development workflows.
+
+                            I have hands-on experience building
+                            responsive frontend interfaces and
+                            full-stack applications using React,
+                            Node.js, Express.js, MongoDB and REST APIs.
+
                         </p>
+
+
+                        <p>
+
+                            I also use AI tools as a development
+                            assistant for learning, debugging,
+                            improving code and solving real-world
+                            development problems.
+
+                        </p>
+
+
+                        <a href="#contact"
+                            class="text-link">
+
+                            Let's work together
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
 
                     </div>
 
 
+
                     <div class="about-cards">
 
-                        <div class="about-card">
-                            <div class="about-icon">
-                                <i class="fa-solid fa-code"></i>
-                            </div>
+                        <div class="about-card reveal">
 
-                            <h3>Full Stack</h3>
+                            <i class="fa-solid fa-code"></i>
+
+                            <h3>
+                                Clean Development
+                            </h3>
 
                             <p>
-                                Frontend, backend and database development.
+                                Structured and maintainable
+                                frontend and backend code.
                             </p>
+
                         </div>
 
 
-                        <div class="about-card">
-                            <div class="about-icon">
-                                <i class="fa-solid fa-mobile-screen"></i>
-                            </div>
+                        <div class="about-card reveal">
 
-                            <h3>Responsive</h3>
+                            <i class="fa-solid fa-mobile-screen"></i>
+
+                            <h3>
+                                Responsive Design
+                            </h3>
 
                             <p>
-                                Interfaces that work across every device.
+                                Websites that work across
+                                desktop, tablet and mobile.
                             </p>
+
                         </div>
 
 
-                        <div class="about-card">
-                            <div class="about-icon">
-                                <i class="fa-solid fa-brain"></i>
-                            </div>
+                        <div class="about-card reveal">
 
-                            <h3>AI Assisted</h3>
+                            <i class="fa-solid fa-brain"></i>
+
+                            <h3>
+                                AI Assisted
+                            </h3>
 
                             <p>
-                                AI tools for faster learning and development.
+                                AI tools used for learning,
+                                debugging and development.
                             </p>
+
                         </div>
 
 
-                        <div class="about-card">
-                            <div class="about-icon">
-                                <i class="fa-solid fa-database"></i>
-                            </div>
+                        <div class="about-card reveal">
 
-                            <h3>Database</h3>
+                            <i class="fa-solid fa-database"></i>
+
+                            <h3>
+                                Backend & Database
+                            </h3>
 
                             <p>
-                                MongoDB and MySQL database integration.
+                                REST APIs, CRUD operations,
+                                MongoDB and MySQL.
                             </p>
+
                         </div>
 
                     </div>
@@ -404,21 +562,25 @@
         </section>
 
 
-        <!-- ================= SKILLS ================= -->
 
-        <section class="section section-dark" id="skills">
+        <!-- =====================================================
+             SKILLS
+        ====================================================== -->
+
+        <section class="section"
+            id="skills">
 
             <div class="container">
 
-                <div class="section-heading center">
+                <div class="section-heading reveal">
 
-                    <p class="section-label">
-                        MY SKILLS
-                    </p>
+                    <span>
+                        02 / Skills
+                    </span>
 
-                    <h2 class="section-title">
-                        Technologies I
-                        <span>work with.</span>
+                    <h2>
+                        My technical
+                        <strong>toolkit.</strong>
                     </h2>
 
                 </div>
@@ -426,76 +588,208 @@
 
                 <div class="skills-grid">
 
-                    <div class="skill-card">
-                        <i class="fa-brands fa-html5"></i>
-                        <h3>HTML5</h3>
-                        <p>Semantic & accessible markup</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+
+                        <h3>
+                            HTML5
+                        </h3>
+
+                        <p>
+                            Semantic and accessible web structure.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <h3>CSS3</h3>
-                        <p>Responsive modern UI</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+
+                        <h3>
+                            CSS3
+                        </h3>
+
+                        <p>
+                            Responsive layouts and modern UI.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-brands fa-js"></i>
-                        <h3>JavaScript</h3>
-                        <p>ES6+ & dynamic applications</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+
+                        <h3>
+                            JavaScript
+                        </h3>
+
+                        <p>
+                            ES6+, DOM, async programming and APIs.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-brands fa-react"></i>
-                        <h3>React.js</h3>
-                        <p>Component-based frontend</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+
+                        <h3>
+                            React.js
+                        </h3>
+
+                        <p>
+                            Components, hooks, routing and APIs.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-brands fa-node-js"></i>
-                        <h3>Node.js</h3>
-                        <p>Server-side development</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-node-js"></i>
+                        </div>
+
+                        <h3>
+                            Node.js
+                        </h3>
+
+                        <p>
+                            Backend development and server-side logic.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-solid fa-server"></i>
-                        <h3>Express.js</h3>
-                        <p>REST API development</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+
+                        <h3>
+                            Express.js
+                        </h3>
+
+                        <p>
+                            REST APIs, routes, middleware and CRUD.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-solid fa-leaf"></i>
-                        <h3>MongoDB</h3>
-                        <p>NoSQL database</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon mongo-skill">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+
+                        <h3>
+                            MongoDB
+                        </h3>
+
+                        <p>
+                            NoSQL database with Mongoose.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-solid fa-database"></i>
-                        <h3>MySQL</h3>
-                        <p>Relational database</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <h3>
+                            MySQL
+                        </h3>
+
+                        <p>
+                            Relational database fundamentals.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-brands fa-git-alt"></i>
-                        <h3>Git</h3>
-                        <p>Version control</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-git-alt"></i>
+                        </div>
+
+                        <h3>
+                            Git & GitHub
+                        </h3>
+
+                        <p>
+                            Version control and deployment workflow.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-brands fa-github"></i>
-                        <h3>GitHub</h3>
-                        <p>Code hosting & collaboration</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+
+                        <h3>
+                            Postman
+                        </h3>
+
+                        <p>
+                            API testing and development.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-solid fa-plug"></i>
-                        <h3>REST APIs</h3>
-                        <p>API integration & CRUD</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+
+                        <h3>
+                            AI Tools
+                        </h3>
+
+                        <p>
+                            AI-assisted coding and debugging.
+                        </p>
+
                     </div>
 
-                    <div class="skill-card">
-                        <i class="fa-solid fa-wand-magic-sparkles"></i>
-                        <h3>AI Tools</h3>
-                        <p>AI-assisted development</p>
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+
+                        <h3>
+                            VS Code
+                        </h3>
+
+                        <p>
+                            Modern development environment.
+                        </p>
+
                     </div>
 
                 </div>
@@ -505,21 +799,25 @@
         </section>
 
 
-        <!-- ================= PROJECTS ================= -->
 
-        <section class="section" id="projects">
+        <!-- =====================================================
+             PROJECTS
+        ====================================================== -->
+
+        <section class="section"
+            id="projects">
 
             <div class="container">
 
-                <div class="section-heading">
+                <div class="section-heading reveal">
 
-                    <p class="section-label">
-                        MY WORK
-                    </p>
+                    <span>
+                        03 / Projects
+                    </span>
 
-                    <h2 class="section-title">
-                        Featured
-                        <span>projects.</span>
+                    <h2>
+                        Things I've
+                        <strong>built.</strong>
                     </h2>
 
                 </div>
@@ -530,70 +828,110 @@
 
                     <!-- NESTORA -->
 
-                    <article class="project-card featured-project">
+                    <article class="project-card reveal">
 
                         <div class="project-preview nestora-preview">
 
                             <div class="preview-window">
 
-                                <div class="preview-bar">
+                                <div class="preview-top">
+
                                     <span></span>
                                     <span></span>
                                     <span></span>
+
                                 </div>
 
-                                <div class="property-preview">
+                                <div class="preview-content">
 
-                                    <div class="property-image"></div>
+                                    <div class="preview-line large"></div>
 
-                                    <div class="property-lines">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
+                                    <div class="preview-line"></div>
+
+                                    <div class="preview-boxes">
+
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+
                                     </div>
 
                                 </div>
 
                             </div>
 
+
                             <span class="project-status">
-                                Currently Building
+                                IN DEVELOPMENT
                             </span>
 
                         </div>
 
 
-                        <div class="project-content">
+                        <div class="project-info">
 
-                            <p class="project-number">
-                                01 / FULL STACK
-                            </p>
+                            <span class="project-number">
+                                01
+                            </span>
 
-                            <h3>NESTORA</h3>
-
-                            <h4>Rental Property Platform</h4>
+                            <h3>
+                                NESTORA
+                            </h3>
 
                             <p>
-                                A full-stack rental property platform
-                                currently under development with property
-                                listings, search, filters, authentication,
-                                favorites, booking requests, reviews,
-                                owner dashboard and admin management.
+
+                                A modern property rental platform
+                                inspired by real-world rental
+                                marketplaces.
+
                             </p>
 
+
                             <div class="project-tags">
-                                <span>React.js</span>
-                                <span>Node.js</span>
-                                <span>Express.js</span>
-                                <span>MongoDB</span>
-                                <span>REST API</span>
+
+                                <span>
+                                    MERN
+                                </span>
+
+                                <span>
+                                    MongoDB
+                                </span>
+
+                                <span>
+                                    REST API
+                                </span>
+
+                                <span>
+                                    React
+                                </span>
+
                             </div>
 
-                            <div class="project-actions">
 
-                                <span class="project-building">
-                                    <i class="fa-solid fa-hammer"></i>
-                                    In Development
+                            <div class="project-features">
+
+                                <span>
+                                    Property Listing
+                                </span>
+
+                                <span>
+                                    Search & Filters
+                                </span>
+
+                                <span>
+                                    User Login
+                                </span>
+
+                                <span>
+                                    Booking
+                                </span>
+
+                                <span>
+                                    Reviews
+                                </span>
+
+                                <span>
+                                    Admin Dashboard
                                 </span>
 
                             </div>
@@ -603,133 +941,195 @@
                     </article>
 
 
+
                     <!-- SOFIYAN HERBAL -->
 
-                    <article class="project-card">
+                    <article class="project-card reveal">
 
                         <div class="project-preview herbal-preview">
 
-                            <div class="preview-brand">
-                                SOFIYAN
-                                <small>HERBAL</small>
+                            <div class="preview-window">
+
+                                <div class="preview-top">
+
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+
+                                </div>
+
+                                <div class="preview-content">
+
+                                    <div class="preview-line large"></div>
+
+                                    <div class="preview-line"></div>
+
+                                    <div class="preview-products">
+
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+
+                                    </div>
+
+                                </div>
+
                             </div>
 
-                            <div class="herbal-bottle">
-                                <div></div>
-                            </div>
 
                             <span class="project-status live">
-                                Live Project
+                                LIVE
                             </span>
 
                         </div>
 
 
-                        <div class="project-content">
+                        <div class="project-info">
 
-                            <p class="project-number">
-                                02 / WEB APPLICATION
-                            </p>
+                            <span class="project-number">
+                                02
+                            </span>
 
-                            <h3>Sofiyan Herbal</h3>
-
-                            <h4>Herbal & Beauty Products</h4>
+                            <h3>
+                                Sofiyan Herbal
+                            </h3>
 
                             <p>
-                                A customized herbal and beauty products
-                                website with structured product presentation,
-                                responsive UI and customer-facing forms.
+
+                                A premium herbal and beauty products
+                                website designed for a modern
+                                shopping experience.
+
                             </p>
 
+
                             <div class="project-tags">
-                                <span>React.js</span>
-                                <span>Node.js</span>
-                                <span>Express.js</span>
-                                <span>Responsive UI</span>
+
+                                <span>
+                                    React
+                                </span>
+
+                                <span>
+                                    JavaScript
+                                </span>
+
+                                <span>
+                                    API
+                                </span>
+
+                                <span>
+                                    Responsive
+                                </span>
+
                             </div>
 
-                            <div class="project-actions">
 
-                                <a
-                                    href="https://sofiyan-herbal-962867594143.asia-southeast1.run.app"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="project-link"
-                                >
-                                    View Project
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
+                            <a href="https://sofiyan-herbal-962867594143.asia-southeast1.run.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link">
 
-                            </div>
+                                View Live Project
+
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                            </a>
 
                         </div>
 
                     </article>
 
 
+
                     <!-- LUXORA -->
 
-                    <article class="project-card">
+                    <article class="project-card reveal">
 
                         <div class="project-preview luxora-preview">
 
-                            <div class="luxora-title">
-                                LUXORA
-                            </div>
+                            <div class="preview-window">
 
-                            <div class="perfume-bottle">
+                                <div class="preview-top">
 
-                                <div class="bottle-cap"></div>
-                                <div class="bottle-neck"></div>
-                                <div class="bottle-body">
-                                    <span>LUXORA</span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+
+                                </div>
+
+                                <div class="preview-content">
+
+                                    <div class="perfume-bottle">
+
+                                        <div class="bottle-cap"></div>
+
+                                        <div class="bottle-body">
+                                            LUXORA
+                                        </div>
+
+                                    </div>
+
                                 </div>
 
                             </div>
 
+
                             <span class="project-status live">
-                                Live Project
+                                LIVE
                             </span>
 
                         </div>
 
 
-                        <div class="project-content">
+                        <div class="project-info">
 
-                            <p class="project-number">
-                                03 / WEB PROJECT
-                            </p>
+                            <span class="project-number">
+                                03
+                            </span>
 
-                            <h3>LUXORA</h3>
-
-                            <h4>Premium Perfume Website</h4>
+                            <h3>
+                                LUXORA
+                            </h3>
 
                             <p>
-                                A premium perfume-focused website with a
-                                modern visual experience, polished product
-                                presentation and responsive interface.
+
+                                A premium perfume shopping experience
+                                with a dark luxury visual identity.
+
                             </p>
 
+
                             <div class="project-tags">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
-                                <span>Responsive Design</span>
+
+                                <span>
+                                    HTML
+                                </span>
+
+                                <span>
+                                    CSS
+                                </span>
+
+                                <span>
+                                    JavaScript
+                                </span>
+
+                                <span>
+                                    3D UI
+                                </span>
+
                             </div>
 
-                            <div class="project-actions">
 
-                                <a
-                                    href="https://luxora-perfumes-gsv3.vercel.app/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="project-link"
-                                >
-                                    View Project
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                </a>
+                            <a href="https://luxora-perfumes-gsv3.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link">
 
-                            </div>
+                                View Live Project
+
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                            </a>
 
                         </div>
 
@@ -742,21 +1142,25 @@
         </section>
 
 
-        <!-- ================= EXPERIENCE ================= -->
 
-        <section class="section section-dark" id="experience">
+        <!-- =====================================================
+             EXPERIENCE
+        ====================================================== -->
+
+        <section class="section"
+            id="experience">
 
             <div class="container">
 
-                <div class="section-heading center">
+                <div class="section-heading reveal">
 
-                    <p class="section-label">
-                        EXPERIENCE
-                    </p>
+                    <span>
+                        04 / Experience
+                    </span>
 
-                    <h2 class="section-title">
+                    <h2>
                         My development
-                        <span>journey.</span>
+                        <strong>journey.</strong>
                     </h2>
 
                 </div>
@@ -764,34 +1168,97 @@
 
                 <div class="timeline">
 
-                    <div class="timeline-item">
+
+                    <div class="timeline-item reveal">
 
                         <div class="timeline-dot"></div>
 
                         <div class="timeline-content">
 
-                            <span class="timeline-date">
-                                2026 — Present
-                            </span>
+                            <div class="timeline-top">
+
+                                <span>
+                                    2026 — Present
+                                </span>
+
+                                <span class="timeline-badge">
+                                    6 MONTHS
+                                </span>
+
+                            </div>
 
                             <h3>
                                 AI MERN Full Stack Developer
                             </h3>
 
-                            <h4>
-                                Software & Web Development
-                            </h4>
-
                             <p>
-                                Building responsive full-stack web
-                                applications using React.js, Node.js,
-                                Express.js, MongoDB and MySQL.
+
+                                Hands-on experience developing
+                                responsive frontend and full-stack
+                                web applications.
+
                             </p>
 
+                            <ul>
+
+                                <li>
+                                    Built React-based interfaces.
+                                </li>
+
+                                <li>
+                                    Developed REST APIs using
+                                    Node.js and Express.js.
+                                </li>
+
+                                <li>
+                                    Worked with MongoDB and MySQL.
+                                </li>
+
+                                <li>
+                                    Implemented CRUD operations.
+                                </li>
+
+                                <li>
+                                    Used Git, GitHub and Postman.
+                                </li>
+
+                                <li>
+                                    Used AI tools for development,
+                                    debugging and learning.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <div class="timeline-top">
+
+                                <span>
+                                    2026
+                                </span>
+
+                                <span class="timeline-badge">
+                                    EDUCATION
+                                </span>
+
+                            </div>
+
+                            <h3>
+                                Diploma in Agriculture
+                            </h3>
+
                             <p>
-                                Developing REST APIs, CRUD functionality,
-                                database integrations and using AI-assisted
-                                tools for debugging and development.
+                                Yashawant College, Markhel
                             </p>
 
                         </div>
@@ -805,7 +1272,10 @@
         </section>
 
 
-        <!-- ================= STATS ================= -->
+
+        <!-- =====================================================
+             STATS
+        ====================================================== -->
 
         <section class="stats-section">
 
@@ -813,24 +1283,56 @@
 
                 <div class="stats-grid">
 
-                    <div class="stat-card">
-                        <strong>6+</strong>
-                        <span>Months Experience</span>
+
+                    <div class="stat-card reveal">
+
+                        <strong data-count="6">
+                            0+
+                        </strong>
+
+                        <span>
+                            Months Experience
+                        </span>
+
                     </div>
 
-                    <div class="stat-card">
-                        <strong>3</strong>
-                        <span>Featured Projects</span>
+
+                    <div class="stat-card reveal">
+
+                        <strong data-count="3">
+                            0+
+                        </strong>
+
+                        <span>
+                            Featured Projects
+                        </span>
+
                     </div>
 
-                    <div class="stat-card">
-                        <strong>10+</strong>
-                        <span>Technologies</span>
+
+                    <div class="stat-card reveal">
+
+                        <strong data-count="10">
+                            0+
+                        </strong>
+
+                        <span>
+                            Technologies
+                        </span>
+
                     </div>
 
-                    <div class="stat-card">
-                        <strong>100%</strong>
-                        <span>Learning Mindset</span>
+
+                    <div class="stat-card reveal">
+
+                        <strong data-count="100">
+                            0+
+                        </strong>
+
+                        <span>
+                            Learning Mindset
+                        </span>
+
                     </div>
 
                 </div>
@@ -840,27 +1342,26 @@
         </section>
 
 
-        <!-- ================= CONTACT ================= -->
 
-        <section class="section contact-section" id="contact">
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section class="section"
+            id="contact">
 
             <div class="container">
 
-                <div class="section-heading center">
+                <div class="section-heading reveal">
 
-                    <p class="section-label">
-                        CONTACT ME
-                    </p>
+                    <span>
+                        05 / Contact
+                    </span>
 
-                    <h2 class="section-title">
+                    <h2>
                         Let's build something
-                        <span>great together.</span>
+                        <strong>great.</strong>
                     </h2>
-
-                    <p class="section-subtitle">
-                        Have a project, internship or job opportunity?
-                        Feel free to get in touch.
-                    </p>
 
                 </div>
 
@@ -870,39 +1371,52 @@
 
                     <!-- CONTACT INFO -->
 
-                    <div class="contact-info">
+                    <div class="contact-info reveal">
 
-                        <a
-                            href="tel:+919623133796"
-                            class="contact-item"
-                        >
+
+                        <a href="tel:+919623133796"
+                            class="contact-item">
 
                             <div class="contact-icon">
+
                                 <i class="fa-solid fa-phone"></i>
+
                             </div>
 
                             <div>
-                                <span>Phone</span>
-                                <strong>+91 9623133796</strong>
+
+                                <span>
+                                    Phone
+                                </span>
+
+                                <strong>
+                                    +91 96231 33796
+                                </strong>
+
                             </div>
 
                         </a>
 
 
-                        <a
-                            href="mailto:azharshaikh3305@gmail.com"
-                            class="contact-item"
-                        >
+                        <a href="mailto:azharshaikh3305@gmail.com"
+                            class="contact-item">
 
                             <div class="contact-icon">
+
                                 <i class="fa-solid fa-envelope"></i>
+
                             </div>
 
                             <div>
-                                <span>Email</span>
+
+                                <span>
+                                    Email
+                                </span>
+
                                 <strong>
                                     azharshaikh3305@gmail.com
                                 </strong>
+
                             </div>
 
                         </a>
@@ -911,35 +1425,73 @@
                         <div class="contact-item">
 
                             <div class="contact-icon">
+
                                 <i class="fa-solid fa-location-dot"></i>
+
                             </div>
 
                             <div>
-                                <span>Location</span>
+
+                                <span>
+                                    Location
+                                </span>
+
                                 <strong>
                                     Nanded, Maharashtra
                                 </strong>
+
                             </div>
 
                         </div>
 
 
-                        <a
-                            href="https://my-portfolio-nine-gules-98.vercel.app/"
+                        <a href="https://github.com/shaikhazhar17156-boop"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="contact-item"
-                        >
+                            class="contact-item">
 
                             <div class="contact-icon">
-                                <i class="fa-solid fa-globe"></i>
+
+                                <i class="fa-brands fa-github"></i>
+
                             </div>
 
                             <div>
-                                <span>Portfolio</span>
+
+                                <span>
+                                    GitHub
+                                </span>
+
                                 <strong>
-                                    my-portfolio-nine-gules-98.vercel.app
+                                    shaikhazhar17156-boop
                                 </strong>
+
+                            </div>
+
+                        </a>
+
+
+                        <a href="https://www.linkedin.com/in/azhar-shaikh-4a2490402"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-item">
+
+                            <div class="contact-icon">
+
+                                <i class="fa-brands fa-linkedin-in"></i>
+
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    LinkedIn
+                                </span>
+
+                                <strong>
+                                    Azhar Shaikh
+                                </strong>
+
                             </div>
 
                         </a>
@@ -947,38 +1499,52 @@
                     </div>
 
 
+
                     <!-- CONTACT CTA -->
 
-                    <div class="contact-cta">
+                    <div class="contact-cta reveal">
 
-                        <div class="contact-cta-icon">
-                            <i class="fa-solid fa-paper-plane"></i>
-                        </div>
+                        <span class="cta-label">
+                            HAVE A PROJECT?
+                        </span>
 
                         <h3>
-                            Ready to work together?
+                            Let's turn your
+                            <span>idea</span>
+                            into reality.
                         </h3>
 
                         <p>
-                            I'm open to internships, junior developer
-                            opportunities and exciting full-stack projects.
+
+                            I'm open to internships, junior
+                            developer opportunities and freelance
+                            projects.
+
                         </p>
 
-                        <a
-                            href="mailto:azharshaikh3305@gmail.com?subject=Job%20Opportunity%20for%20Azhar%20Shaikh"
-                            class="btn btn-primary"
-                        >
-                            Hire Me
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
 
-                        <a
-                            href="tel:+919623133796"
-                            class="call-link"
-                        >
-                            <i class="fa-solid fa-phone"></i>
-                            Call Me
-                        </a>
+                        <div class="cta-buttons">
+
+                            <a href="mailto:azharshaikh3305@gmail.com"
+                                class="btn btn-primary">
+
+                                Hire Me
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+
+                            <a href="tel:+919623133796"
+                                class="btn btn-outline">
+
+                                Call Me
+
+                                <i class="fa-solid fa-phone"></i>
+
+                            </a>
+
+                        </div>
 
                     </div>
 
@@ -991,53 +1557,62 @@
     </main>
 
 
-    <!-- ================= FOOTER ================= -->
 
-    <footer>
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
 
         <div class="container">
 
             <div class="footer-content">
 
-                <div>
-                    <a href="#home" class="logo">
-                        <span>A</span>ZHAR
-                    </a>
 
-                    <p>
-                        AI MERN Full Stack Developer
-                    </p>
-                </div>
+                <a href="#home"
+                    class="logo">
+
+                    <span class="logo-mark">
+
+                        <span>A</span>
+                        <span>Z</span>
+
+                    </span>
+
+                    <span class="logo-name">
+                        AZHAR
+                    </span>
+
+                </a>
 
 
-                <div class="footer-socials">
+                <p>
+                    AI MERN Full Stack Developer
+                </p>
 
-                    <a
-                        href="https://github.com/shaikhazhar17156-boop"
+
+                <div class="footer-social">
+
+                    <a href="https://github.com/shaikhazhar17156-boop"
                         target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                        rel="noopener noreferrer">
+
                         <i class="fa-brands fa-github"></i>
+
                     </a>
 
-                    <a
-                        href="https://www.linkedin.com/in/azhar-shaikh-4a2490402"
+                    <a href="https://www.linkedin.com/in/azhar-shaikh-4a2490402"
                         target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                        rel="noopener noreferrer">
+
                         <i class="fa-brands fa-linkedin-in"></i>
+
                     </a>
 
-                    <a
-                        href="mailto:azharshaikh3305@gmail.com"
-                    >
+                    <a href="mailto:azharshaikh3305@gmail.com">
+
                         <i class="fa-solid fa-envelope"></i>
-                    </a>
 
-                    <a
-                        href="tel:+919623133796"
-                    >
-                        <i class="fa-solid fa-phone"></i>
                     </a>
 
                 </div>
@@ -1047,13 +1622,13 @@
 
             <div class="footer-bottom">
 
-                <p>
+                <span>
                     © 2026 Azhar Shaikh. All rights reserved.
-                </p>
+                </span>
 
-                <a href="#home">
-                    Back to top ↑
-                </a>
+                <span>
+                    Built with HTML • CSS • JavaScript
+                </span>
 
             </div>
 
@@ -1062,8 +1637,13 @@
     </footer>
 
 
-    <!-- JavaScript -->
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
     <script src="script.js"></script>
 
 </body>
+
 </html>
